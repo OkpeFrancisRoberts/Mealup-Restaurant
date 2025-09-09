@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="big.css">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Resturant</title>
+</head>
+<body>
+  <!--Navigation Bar-->
+  <header class="nav-bar">
+    <a class="brand" href="#">MEALUP</a>
+    <ul class="nav-links">
+      <li><a class="nav-link" href="#">Home</a></li>
+      <li><a class="nav-link" href="#about">About us</a></li>
+      <li><a class="nav-link" href="#menu">Our Menu</a></li>
+    </ul>
+    <a class="nav-btn" href="#contact">Contact</a>
+  </header>
+  
+  <main>
+    <!--Hero section-->
+    <section class="hero-section">
+      <div>
+        <h1>MealUp Restaurant – Fresh, Flavorful, and Always Near You</h1>
+        <p>Welcome to <strong>MealUp</strong>, your go-to restaurant in Lagos for authentic Nigerian dishes and tasty continental meals. Whether you’re craving a quick lunch, planning a family dinner, or looking to order food online, MealUp serves fresh, affordable meals made with love.</p>
+      </div>
+      <ul class="hero-btns">
+        <li><a href="#menu" class="hero-btn" href="#">View Menu</a></li>
+        <li><a href="#contact" class="hero-btn"href="#">Contact us</a></li>
+      </ul>
+    </section>
+    
+    <!--About us Section-->
+    <section id="about" class="about-section">
+      <h2>About MealUp</h2>
+      <p>At <span>MealUp</span>, we believe food is more than just a meal – it’s an experience. From sizzling grilled chicken to creamy pasta and traditional jollof rice, our chefs craft every dish using fresh ingredients sourced locally. Our mission is simple: to serve great food that brings people together.</p>
+    </section>
+    
+    <!--Our menu Section-->
+    <section id="menu" class="menu-section">
+      <h2>Our Delicious Menu</h2>
+      <p>Explore a wide variety of meals at MealUp Restaurant. From Nigerian classics to international favorites, our menu has something for everyone:</p><div class="menu-items">  
+        <div class="menu-items">
+          <div class="menu-item">
+            <img class="menu-image" src="/storage/emulated/0/My-Portfolio/Images/images (1).jpeg" alt="Jullof Rice">
+            <h3>Jollof Rice with Grilled Chicken</h3>
+            <p>Fluffy Nigerian jollof rice cooked in rich tomato sauce, served with tender, smoky grilled chicken.</p>
+            <p class="price">₦5,000</p>
+          </div>
+          
+          <div class="menu-item">
+            <img class="menu-image" src="/storage/emulated/0/My-Portfolio/Images/images (4).jpeg" alt="Alfredo Pasta">
+            <h3>Creamy Alfredo Pasta</h3>
+            <p>Silky pasta tossed in a creamy garlic Alfredo sauce, topped with parmesan and fresh herbs.</p>
+            <p class="price">₦10,000</p>
+          </div>
+          
+          <div class="menu-item">
+            <img class="menu-image" src="/storage/emulated/0/My-Portfolio/Images/Classic Beef Steak.png" alt="Beef Steak" width="225" height="225" >
+            <h3>Classic Beef Steak</h3>
+            <p>Juicy, flame-grilled beef steak cooked to perfection, served with mashed potatoes and vegetables.</p>
+            <p class="price">₦15,000</p>
+          </div>
+          
+          <div class="menu-item">
+            <img class="menu-image" src="/storage/emulated/0/My-Portfolio/Images/download (1).jpeg" alt="Garden Salad">
+            <h3>Fresh Garden Salad</h3>
+            <p>A refreshing mix of crisp lettuce, cucumbers, tomatoes, and carrots, drizzled with a light vinaigrette.</p>
+            <p class="price">₦7,000</p>
+          </div>
+          
+          <div class="menu-item">
+            <img class="menu-image" src="/storage/emulated/0/My-Portfolio/Images/download.jpeg" alt="Margherita Pizza">
+            <h3>Amazing Margherita Pizza</h3>
+            <p>Wood-fired thin crust pizza topped with mozzarella, fresh basil, and tangy tomato sauce.</p>
+            <p class="price">₦4,500</p>
+          </div>
+          
+          <div class="menu-item">
+            <img class="menu-image" src="/storage/emulated/0/My-Portfolio/Images/images (2).jpeg" alt="Chocolate Lava Cake">
+            <h3>Chocolate Lava Cake</h3>
+            <p>Warm chocolate cake with a gooey molten center, served with a scoop of vanilla ice cream.</p>
+            <p class="price">₦8,000</p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    <!--Our contact-->
+    
+    <section id="contact" class="contact-section">
+      <h2>Book a Table or Order Online</h2>
+      <p>Hungry already? <strong>Reserve a table at MealUp</strong> for a dine-in experience or <strong>order food online</strong> and get your meal delivered fresh to your doorstep. Fast, easy, and affordable.</p>
+      
+      <form action="/" method="POST">
+        <label for="name">Full Name</label>
+        <input id="name" type="text" name="full-name" minlength="3" required>
+        
+        <label for="email">Email Address</label>
+        <input id="email" type="email" name="Email-Address" required>
+        
+        <label for="phone">Phone Number</label>
+        <input id="phone" type="tel" name="phone-number" minlength="10" maxlength="11" required>
+        
+        <label for="date">Booking Date</label>
+        <input id="date" type="date" name="Booking date" required>
+        
+        <label for="time">Time</label>
+        <input id="time" type="time" name="Booking-time" required>
+
+        <label for="guests">Number of Guests</label>
+        <input id="guests" type="number" name="Number-of-Guestes" required>
+        
+        <label for="special">Special Requests</label>
+        <textarea id="special" name="Special-Requests" cols="30" rows="3" placeholder="e.g., birthday, dietary needs"></textarea>
+        
+        <button value="submit">Book Now</button>
+      </form> 
+    </section>
+  </main>
+  
+  <footer>
+    <div class="address-details">
+      <h2>Find MealUp Restaurant</h2>
+      <p>Visit us today and enjoy the taste of happiness at MealUp.</p>
+      <p><strong>Address:</strong> 123 Main Street, Victoria Island, Lagos</p>
+      <p><strong>Phone:</strong> +234 800 123 4567</p>
+      <p><strong>Email:</strong> hello@mealup.com</p>
+    </div>    
+    <ul class="social">
+      <li class="social-link"><a href="#">Facebook</a></li>
+      <li class="social-link"><a href="#">Instagram</a></li>
+      <li class="social-link"><a href="#">Tiktok</a></li>
+    </ul>
+    <p class="footer-copy">&copy; 2025 mealup | made with Love</p>
+  </footer>
+</body>
+</html>

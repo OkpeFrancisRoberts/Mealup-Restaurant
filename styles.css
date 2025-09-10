@@ -319,7 +319,15 @@ footer p {
     padding: 7px 15px;
     border-radius: 10px;
   }
-  
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"] {
+    width: 100%;
+  }
   .brand {
     color: #E67E22;
     background-color: #2C2C2C;
